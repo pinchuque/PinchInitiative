@@ -5,21 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap core CSS -->
-    <link href="@Url.Content("~/Content/css/font-awesome.min.css")" rel="stylesheet">
-    <link href="@Url.Content("~/Content/css/main.css")" rel="stylesheet">
+    @*<link href="@Url.Content("~/Content/css/font-awesome.min.css")" rel="stylesheet">
+    <link href="@Url.Content("~/Content/css/main.css")" rel="stylesheet">*@
+    <link href="~/Content/css/normalize.css" rel="stylesheet" />
+    <link href="~/Content/css/style_main.css" rel="stylesheet" />
+    <link href="~/Content/css/style_main_index.css" rel="stylesheet" />
     <!-- Jquery UI CSS -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="SHORTCUT ICON" href="../../favicon.ico" />
 </head>
 <body>
     <!--Kode Wrapper Start-->
-    <div >
+<div >
         @RenderBody()
-    </div>
-    <script src="@Url.Content("~/Scripts/jquery.min.js")"></script>
+        <footer>
+            <div class="container">
+                <div class="footer-list-block-wrapper">
+                    <div class="footer-list-block">
+                        <h2 class="footer-list-title">
+                            Services
+                        </h2>
+                        <ul class="footer-list">
+                            <li>Games Development</li>
+                            <li>Custom Applications</li>
+                            <li>Enterprise Software</li>
+                            <li>Other Services</li>
+                        </ul>
+                    </div>
+                    <div class="footer-list-block footer-list-block-tech">
+                        <h2 class="footer-list-title">
+                            Technologies
+                        </h2>
+                        <ul class="footer-list">
+                            <li>.NET</li>
+                            <li>Java</li>
+                            <li>Swift</li>
+                            <li>Databases</li>
+                            <li>Other Technologies</li>
+                        </ul>
+                    </div>
+                    <div class="footer-list-block">
+                        <h2 class="footer-list-title"></h2>
+                        <ul class="footer-list"></ul>
+                    </div>
+                    <div class="footer-list-block footer-list-block-about">
+                        <h2 class="footer-list-title"></h2>
+                        <ul class="footer-list"></ul>
+                    </div>
+                    <div class="footer-list-block footer-list-block-folio">
+                        <h2 class="footer-list-title"></h2>
+                        <ul class="footer-list"></ul>
+                    </div>
+                    <div class="footer-list-block footer-list-block-follow">
+                        <h2 class="footer-list-title">
+                            Follow Us
+                        </h2>
+                        <div class="social-block">
+                            <a href="#" class="social-link social-link_in" target="_blank"></a>
+                            <a href="#" class="social-link social-link_gplus" target="_blank"></a>
+                            <a href="#" class="social-link social-link_fb" target="_blank"></a>
+                            <a href="#" class="social-link social-link_tw" target="_blank"></a>
+                        </div>
+                        <div class="phone"> 416 556 3442</div>
+                        <div class="email">
+                            <a href="mailto:AOPINCHUK@gmail.com"> AOPINCHUK@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</div>
+
+    @*<script src="@Url.Content("~/Scripts/jquery.min.js")"></script>
     <script src="@Url.Content("~/Scripts/jquery.scrolly.min.js")"></script>
     <script src="@Url.Content("~/Scripts/skel.min.js")"></script>
     <script src="@Url.Content("~/Scripts/util.js")"></script>
-    <script src="@Url.Content("~/Scripts/main.js")"></script>
+    <script src="@Url.Content("~/Scripts/main.js")"></script>*@
 </body>
 </html>

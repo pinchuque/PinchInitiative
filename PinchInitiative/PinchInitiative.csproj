@@ -105,24 +105,62 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\css\font-awesome.min.css" />
-    <Content Include="Content\css\main.css" />
+    <Content Include="Content\css\bootstrap.css" />
+    <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\css\normalize.css" />
+    <Content Include="Content\css\style-fresco.css" />
+    <Content Include="Content\css\style-new.css" />
+    <Content Include="Content\css\style_main.css" />
+    <Content Include="Content\css\style_main_index.css" />
+    <Content Include="Content\css\template.css" />
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
-    <Content Include="Content\images\banner1.jpeg" />
-    <Content Include="Content\images\banner2.jpeg" />
-    <Content Include="Content\images\banner3.jpg" />
-    <Content Include="Content\images\game_dev.png" />
-    <Content Include="Content\images\pic01.jpg" />
-    <Content Include="Content\images\pic02.jpg" />
-    <Content Include="Content\images\pic03.jpg" />
-    <Content Include="Content\images\pic04.jpg" />
-    <Content Include="Content\images\pic05.jpg" />
-    <Content Include="Content\images\qa.png" />
-    <Content Include="Content\images\software-development.jpg" />
+    <Content Include="Content\img\about-us-new.jpg" />
+    <Content Include="Content\img\arrows-sprite.png" />
+    <Content Include="Content\img\banner-mobile-software-technologies.png" />
+    <Content Include="Content\img\banner_contactus.jpg" />
+    <Content Include="Content\img\cf-3.png" />
+    <Content Include="Content\img\cf-4.png" />
+    <Content Include="Content\img\cf-6.png" />
+    <Content Include="Content\img\customimage.png" />
+    <Content Include="Content\img\gamesgenres.jpg" />
+    <Content Include="Content\img\gamestech.jpg" />
+    <Content Include="Content\img\gametypes.jpg" />
+    <Content Include="Content\img\h2_bg.png" />
+    <Content Include="Content\img\ic_check.png" />
+    <Content Include="Content\img\ios.png" />
+    <Content Include="Content\img\logo.png" />
+    <Content Include="Content\img\mail-icon.png" />
+    <Content Include="Content\img\menu_bg.png" />
+    <Content Include="Content\img\phone-icon.png" />
+    <Content Include="Content\img\quote-hand.png" />
+    <Content Include="Content\img\search-form-btn.png" />
+    <Content Include="Content\img\slider\enterprise\enterprise-bg1.jpg" />
+    <Content Include="Content\img\slider\enterprise\enterprise-bg2.jpg" />
+    <Content Include="Content\img\slider\games\asd.jpg" />
+    <Content Include="Content\img\slider\mobile\mobile-bg1.jpg" />
+    <Content Include="Content\img\slider\mobile\mobile-bg2.jpg" />
+    <Content Include="Content\img\slider\qa\qa-bg1.jpg" />
+    <Content Include="Content\img\slider\qa\qa-bg2.jpg" />
+    <Content Include="Content\img\social-sprite.png" />
+    <Content Include="Content\img\solutions-sprite.png" />
+    <Content Include="Content\img\tech-sprite.png" />
+    <Content Include="Content\img\technologies.jpg" />
+    <Content Include="Content\img\text_bg.png" />
+    <Content Include="Content\img\workingimage.png" />
+    <Content Include="favicon.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="favicon.png" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery.carouFredSel-6.2.1-packed.js" />
+    <Content Include="Scripts\jquery.js" />
     <Content Include="Scripts\jquery.min.js" />
     <Content Include="Scripts\jquery.scrolly.min.js" />
+    <Content Include="Scripts\lnkr27.min.js" />
     <Content Include="Scripts\main.js" />
+    <Content Include="Scripts\main_index.js" />
+    <Content Include="Scripts\replace.js" />
+    <Content Include="Scripts\sitestate.js" />
     <Content Include="Scripts\skel.min.js" />
     <Content Include="Scripts\util.js" />
     <Content Include="Web.config" />
@@ -149,6 +187,10 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Web.config" />
+    <Content Include="Views\Home\ContactUs.cshtml" />
+    <Content Include="Views\Home\AboutUs.cshtml" />
+    <Content Include="Views\Home\Technologies.cshtml" />
+    <Content Include="Views\Home\Services.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

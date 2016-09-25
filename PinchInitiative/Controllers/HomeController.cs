@@ -14,5 +14,22 @@ namespace PinchInitiative.Controllers
             return View();
         }
 
+        public ActionResult ContactUs()
+        {
+            return View("ContactUs");
+        }
+
+        public ActionResult AboutUs()
+        {
+            return View("AboutUs");
+        }
+        public ActionResult Technologies()
+        {
+            return View("Technologies");
+        }
+        public ActionResult Services()
+        {
+            return View("Services");
+        }
     }
 }
