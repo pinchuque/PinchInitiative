@@ -31,5 +31,9 @@ namespace PinchInitiative.Controllers
         {
             return View("Services");
         }
+        public ActionResult Careers()
+        {
+            return View("Careers");
+        }
     }
 }
